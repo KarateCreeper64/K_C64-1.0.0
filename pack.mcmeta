@@ -1,0 +1,16 @@
+{
+  "pack": {
+    "id": "kc64",
+    "description": "Adds Custom superhero's powers and suits.",
+    "pack_format": 15,
+    "version": "1.0.0"
+  },
+  "dependencies": {
+    "common": {
+    },
+    "fabric": {
+    },
+    "forge": {
+    }
+  }
+}

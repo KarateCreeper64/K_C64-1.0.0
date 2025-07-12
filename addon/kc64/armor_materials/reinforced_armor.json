@@ -1,0 +1,16 @@
+{
+    "durability_multiplier": 140,
+    "slot_protections": {
+        "helmet": 0,
+        "chestplate": 8,
+        "leggings": 7,
+        "boots": 5
+    },
+    "enchantment_value": 5,
+    "equip_sound": "minecraft:item.armor.equip_iron",
+    "toughness": 2,
+    "knockback_resistance": 0.1,
+    "repair_ingredient": {
+        "tag": "forge:fabric_all"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "schemaVersion": 1,
+    "authors": [],
+    "environment": "*",
+    "name": "Karate_Creeper64 Custom Superhero's",
+    "id": "kc64",
+    "version": "1.0.0",
+    "description": "Adds Custom superhero's powers and suits.",
+    "icon": "logo.png",
+    "license": "All rights reserved"
+}
