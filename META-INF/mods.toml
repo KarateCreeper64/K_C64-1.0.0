@@ -16,6 +16,6 @@ Adds Custom superhero's powers and suits.
 [[dependencies.kc64]]
 modId = "palladium"
 mandatory = true
-versionRange = ""
+versionRange = "[4,)"
 ordering = "NONE"
 side = "BOTH"

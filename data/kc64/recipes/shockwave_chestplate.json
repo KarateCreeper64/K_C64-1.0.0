@@ -1,0 +1,33 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "Y Y",
+      "BWB",
+      "MSM"
+    ],
+    "key": {
+          "B": {
+        "item": "arrzenhanced:light_blue_fabric"
+      },
+      "Y": {
+        "item": "palladium:vibranium_ingot"
+      },
+      "M": {
+        "item": "minecraft:magma_cream"
+      },
+      "W": {
+        "item": "arrzenhanced:tachyon_device"
+      },
+      "S": {
+        "item": "palladium:quartz_circuit"
+      }
+    },
+    "result": {
+      "item": "kc64:shockwave_chestplate",
+      "count": 1
+    },
+    "show_notification": true
+  }
+  
+

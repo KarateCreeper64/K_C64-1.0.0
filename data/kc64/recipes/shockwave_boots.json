@@ -1,0 +1,27 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "   ",
+      "YMY",
+      "B B"
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:magma_cream"
+      },
+      "B": {
+        "item": "arrzenhanced:light_blue_fabric"
+      },
+      "Y": {
+        "item": "palladium:vibranium_ingot"
+      }
+    },
+    "result": {
+      "item": "kc64:shockwave_boots",
+      "count": 1
+    },
+    "show_notification": true
+  }
+  
+

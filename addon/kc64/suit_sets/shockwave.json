@@ -1,0 +1,21 @@
+{
+    "armor_material": "kc64:basic_plus_armor",
+    "chest": {
+        "item_name": "shockwave_chestplate",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:shockwave/chest"
+    },
+    "legs": {
+        "item_name": "shockwave_leggings",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:shockwave/legs"
+    },
+    "feet": {
+        "item_name": "shockwave_boots",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:shockwave/boots"
+    }
+}

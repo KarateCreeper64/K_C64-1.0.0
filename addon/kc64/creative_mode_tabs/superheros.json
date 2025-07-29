@@ -1,0 +1,9 @@
+{
+    "icon": "minecraft:air",
+    "title": "K_C64's SuperHeros",
+    "items": [
+        "kc64:shockwave_chestplate",
+        "kc64:shockwave_leggings",
+        "kc64:shockwave_boots"
+    ]
+}
