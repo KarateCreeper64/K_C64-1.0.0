@@ -4,6 +4,10 @@
     "items": [
         "kc64:shockwave_chestplate",
         "kc64:shockwave_leggings",
-        "kc64:shockwave_boots"
+        "kc64:shockwave_boots",
+        "kc64:plague_docter_chestplate",
+        "kc64:plague_docter_leggings",
+        "kc64:plague_docter_boots"
+
     ]
 }

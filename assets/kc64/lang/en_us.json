@@ -3,5 +3,10 @@
 
     "item.kc64.shockwave_chestplate":"Shockwave Chestplate",
      "item.kc64.shockwave_leggings":"Shockwave Leggings",
-      "item.kc64.shockwave_boots":"Shockwave Boots"
+      "item.kc64.shockwave_boots":"Shockwave Boots",
+      "hero.kc64.shockwave":"Shockwave",
+      "item.kc64.plague_docter_boots":"Plague Docter Boots",
+      "item.kc64.plague_docter_leggings":"Plague Docter leggings",
+      "item.kc64.plague_docter_chestplate":"Plague Docter Chestplate",
+      "hero.kc64.plague_docter":"Plague Docter"
 }

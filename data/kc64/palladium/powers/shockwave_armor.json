@@ -1,0 +1,194 @@
+{
+	"name": {"translate":"power.kc64.shocwave.armor"},
+	"background": "minecraft:textures/block/red_wool.png",
+	"icon": {
+		"type": "palladium:texture",
+		"texture": "kc64:textures/item/shockwave.png"
+	},
+	"persistent_data": true,
+	"primary_color": "#ffffff",
+	"secondary_color": "#525969",
+    "abilities":{
+		"tachyon_speedburst_armor_commands":{
+			"type": "palladium:command",
+			"hidden": true,
+			"first_tick_commands": [
+				"scoreboard objectives add arrz.speedburst.frontflip.cd dummy"
+			],
+			"last_tick_commands": [],
+			"commands": ["execute if entity @s[nbt={OnGround:1b}] if score @s arrz.speedburst.frontflip.cd matches 1.. run scoreboard players remove @s arrz.speedburst.frontflip.cd 1"]
+		},
+		"name_change":{
+			"type": "palladium:name_change",
+			"hidden": true,
+			"hidden_in_bar": true,
+			"name": {
+				"translate": "hero.kc64.shockwave"
+			}
+		},
+		"tachyon_speed": {
+			"type": "arrzenhanced:add_temp_max_speed",
+			"hidden": true,
+			"hidden_in_bar": true,
+			"levels": 3,
+			"new_color": 8,
+			"conditions": {
+				"unlocking": {
+					"type": "palladium:not",
+					"conditions": [
+						{
+							"type": "hertz:safe_player_has_effect",
+							"effect": "dampened:emp"
+						}
+					]
+				}
+			}
+		},
+		"fall_immunity":{
+			"type": "palladium:damage_immunity",
+			"hidden": true,
+			"hidden_in_bar": true,
+			"damage_sources": [
+				"minecraft:is_fall"
+			],
+			"conditions":{
+				"enabling":[],
+				"unlocking":[]
+			}
+		},
+		"glow_layer":{
+			"type": "palladium:render_layer",
+			"hidden": true,
+			"hidden_in_bar": true,
+			"render_layer": "arrzenhanced:speedburst/tachyon_glow_layer",
+			"conditions": {
+			  	"enabling": [
+					{
+						"type": "palladium:has_tag",
+						"tag": "arrz.speedburst.active"
+					}
+			  	],
+			  "unlocking":[]
+			}
+		},
+		"frontflip_flight": {
+			"type": "palladium:attribute_modifier",
+			"hidden": true,
+			"hidden_in_bar": true,
+			"attribute": "palladium:flight_speed",
+			"amount": 1,
+			"operation": 0,
+			"uuid": "b3fab765-914f-438b-898d-e05fb56bc20a",
+			"conditions":{
+				"enabling":[],
+				"unlocking":[
+					{
+						"type": "palladium:not",
+						"conditions": [
+							{
+								"type": "hertz:safe_player_has_effect",
+								"effect": "dampened:emp"
+							}
+						]
+					},
+					{
+						"type": "palladium:not",
+						"conditions": [{
+							"type": "palladium:objective_score",
+							"objective": "arrz.speedburst.frontflip",
+							"min_score": 1
+						}]
+					},
+					{
+						"type": "palladium:not",
+						"conditions": [{
+							"type": "palladium:objective_score",
+							"objective": "arrz.speedburst.frontflip.cd",
+							"min_score": 1
+						}]
+					}
+				]
+			}
+		},
+		"frontflip_movement": {
+			"type": "arrzenhanced:movement",
+			"hidden": true,
+			"motion_scale": 1.6,
+			"conditions":{
+				"enabling":[
+					{
+						"type": "palladium:not",
+						"conditions": [
+							{
+								"type": "hertz:safe_player_has_effect",
+								"effect": "dampened:emp"
+							}
+						]
+					}
+				],
+				"unlocking":[
+					{
+						"type": "palladium:is_hovering_or_levitating"
+					}
+				]
+			}
+		},
+		"frontflip_checkflight":{
+			"type": "palladium:command",
+			"hidden": true,
+			"first_tick_commands": [
+				"playsound arrzenhanced:arrzenhanced.tachyon_frontflip ambient @a[distance=..5] ~ ~ ~ 2 1",
+				"scoreboard objectives add arrz.speedburst.frontflip dummy"
+			],
+			"last_tick_commands": [],
+			"commands": [
+				"scoreboard players add @s arrz.speedburst.frontflip 1",
+				"scoreboard players set @s arrz.speedburst.frontflip.cd 20"
+			],
+			"conditions":{
+				"enabling":[],
+				"unlocking":[
+					{
+						"type": "palladium:is_hovering_or_levitating"
+					}
+				]
+			}
+		},
+		"frontflip_tick":{
+			"type": "palladium:command",
+			"hidden": true,
+			"first_tick_commands": ["scoreboard objectives add arrz.speedburst.frontflip dummy"],
+			"last_tick_commands": ["scoreboard players set @s arrz.speedburst.frontflip 0"],
+			"commands": ["scoreboard players add @s arrz.speedburst.frontflip 1"],
+			"conditions":{
+				"enabling":[],
+				"unlocking":[
+					{
+						"type": "palladium:objective_score",
+						"objective": "arrz.speedburst.frontflip",
+						"min_score": 1,
+						"max_score": 13
+					}
+				]
+			}
+		},
+		"frontflip_anim":{
+			"type": "palladium:repeating_animation_timer",
+			"hidden": true,
+			"hidden_in_bar": true,
+			"start_value": 0,
+			"max_value": 12,
+			"conditions":{
+				"enabling":[
+					{
+						"type": "palladium:objective_score",
+						"objective": "arrz.speedburst.frontflip",
+						"min_score": 1,
+						"max_score": 13
+					}
+				],
+				"unlocking":[]
+			}
+		}
+    }
+}

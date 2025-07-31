@@ -1,0 +1,21 @@
+{
+    "armor_material": "kc64:basic_armor",
+    "chest": {
+        "item_name": "plague_docter_chestplate",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:plague/chest"
+    },
+    "legs": {
+        "item_name": "plague_docter_leggings",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:plague/legs"
+    },
+    "feet": {
+        "item_name": "plague_docter_boots",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:plague/boots"
+    }
+}

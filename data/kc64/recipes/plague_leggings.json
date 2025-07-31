@@ -2,23 +2,17 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-      "   ",
-      "YMY",
+      "BBB",
+      "B B",
       "B B"
     ],
     "key": {
-      "M": {
-        "item": "minecraft:magma_cream"
-      },
       "B": {
         "item": "arrzenhanced:black_fabric"
-      },
-      "Y": {
-        "item": "palladium:vibranium_ingot"
       }
     },
     "result": {
-      "item": "kc64:shockwave_boots",
+      "item": "kc64:plague_docter_leggings",
       "count": 1
     },
     "show_notification": true
