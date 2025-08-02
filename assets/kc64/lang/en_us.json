@@ -8,5 +8,10 @@
       "item.kc64.plague_docter_boots":"Plague Docter Boots",
       "item.kc64.plague_docter_leggings":"Plague Docter leggings",
       "item.kc64.plague_docter_chestplate":"Plague Docter Chestplate",
-      "hero.kc64.plague_docter":"Plague Docter"
+      "hero.kc64.plague_docter":"Plague Docter",
+        "item.kc64.glich_chestplate":"Glich Chestplate",
+     "item.kc64.glich_leggings":"Glich Leggings",
+      "item.kc64.glich_boots":"Glich Boots",
+        "item.kc64.glich_helmet":"Glich",
+      "hero.kc64.glich":"Glich"
 }

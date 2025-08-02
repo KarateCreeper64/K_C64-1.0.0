@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "   ",
+      "B B",
+      "B B"
+    ],
+    "key": {
+      "B": {
+        "item": "arrzenhanced:purple_fabric"
+      }
+    },
+    "result": {
+      "item": "kc64:glich_boots",
+      "count": 1
+    },
+    "show_notification": true
+  }
+  
+

@@ -1,4 +1,4 @@
 {
-    "textures": "kc64:textures/models/armor/plague_docter/helmet.png",
+    "textures": "kc64:textures/models/armor/plague_docter/textures.png",
     "model_layers": "palladium:humanoid#suit"
 }

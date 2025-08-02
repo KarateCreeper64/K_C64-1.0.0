@@ -1,9 +1,10 @@
 {
+	"format_version": "1.21.6",
 	"credit": "SweetSpot",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "kc64:texture/models/armor/plague_docter/hemet",
-		"particle": "kc64:texture/models/armor/plague_docter/hemet"
+		"0": "kc64:models/armor/plague_docter/texture",
+		"particle": "kc64:models/armor/plague_docter/texture"
 	},
 	"elements": [
 		{

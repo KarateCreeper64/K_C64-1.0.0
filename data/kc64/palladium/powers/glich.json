@@ -1,0 +1,43 @@
+{
+	"name": {"translate":"power.kc64.glich.armor"},
+	"background": "minecraft:textures/block/red_wool.png",
+	"icon": {
+		"type": "palladium:texture",
+		"texture": "kc64:textures/item/glich.png"
+	},
+	"persistent_data": true,
+	"primary_color": "#ffffff",
+	"secondary_color": "#525969",
+    "abilities":{
+		"name_change":{
+			"type": "palladium:name_change",
+			"hidden": true,
+			"hidden_in_bar": true,
+			"name": {
+				"translate": "hero.kc64.glich"
+			}
+		},
+		"fall_immunity":{
+			"type": "palladium:damage_immunity",
+			"hidden": true,
+			"hidden_in_bar": true,
+			"damage_sources": [
+				"minecraft:is_fall"
+			],
+			"conditions":{
+				"enabling":[],
+				"unlocking":[]
+			}
+		},
+		"flight": {
+            "type": "palladium:attribute_modifier",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "attribute": "palladium:flight_speed",
+            "amount": 1,
+            "operation": 0,
+            "uuid": "c1ab4a70-d33d-46ea-9db3-71306974e7e8"
+		}
+	}
+}

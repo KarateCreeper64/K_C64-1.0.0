@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "W W",
+      "BMB",
+      "WYW"
+    ],
+    "key": {
+          "B": {
+        "item": "arrzenhanced:white_fabric"
+      },
+      "Y": {
+        "item": "palladium:vibranium_ingot"
+      },
+      "M": {
+        "item": "minecraft:purple_stained_glass_pane"
+      },
+      "W": {
+        "item": "iceandfire:silver_ingot"
+      }
+    },
+    "result": {
+      "item": "kc64:glich_chestplate",
+      "count": 1
+    },
+    "show_notification": true
+  }
+  
+
