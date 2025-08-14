@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "BYB",
+      "S S",
+      "B B"
+    ],
+    "key": {
+      "B": {
+        "item": "iceandfire:silver_ingot"
+      },
+      "Y": {
+        "item": "palladium:vibranium_circuit"
+      },
+      "S": {
+        "item": "palladium:vibranium_ingot"
+      }
+      
+    },
+    "result": {
+      "item": "kc64:profesor_omni_leggings",
+      "count": 1
+    },
+    "show_notification": true
+  }

@@ -1,0 +1,27 @@
+{
+    "armor_material": "kc64:basic_plus_armor",
+    "chest": {
+        "item_name": "profesor_omni_chestplate",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:profesor_omni/chest"
+    },
+    "legs": {
+        "item_name": "profesor_omni_leggings",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:profesor_omni/legs"
+    },
+    "feet": {
+        "item_name": "profesor_omni_boots",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:profesor_omni/boots"
+    },
+    "head": {
+        "item_name": "profesor_omni_helmet",
+        "max_stack_size": 1,
+        "is_fire_restant": false,
+        "armor_renderer": "kc64:profesor_omni/helmet"
+    }
+}

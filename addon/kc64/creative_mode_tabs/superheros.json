@@ -1,5 +1,5 @@
 {
-    "icon": "minecraft:air",
+    "icon": "kc64:profesor_omni_helmet",
     "title": "K_C64's SuperHeros",
     "items": [
         "kc64:shockwave_chestplate",
@@ -11,6 +11,15 @@
         "kc64:glich_helmet",
         "kc64:glich_chestplate",
         "kc64:glich_leggings",
-        "kc64:glich_boots"
+        "kc64:glich_boots",
+        "kc64:spidey_helmet",
+        "kc64:spidey_chestplate",
+        "kc64:spidey_leggings",
+        "kc64:spidey_boots",
+        "kc64:lab_coat_chestplate",
+        "kc64:profesor_omni_helmet",
+        "kc64:profesor_omni_chestplate",
+        "kc64:profesor_omni_leggings",
+        "kc64:profesor_omni_boots"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "SYS",
+      "BMB",
+      "   "
+    ],
+    "key": {
+      "B": {
+        "item": "iceandfire:silver_ingot"
+      },
+      "Y": {
+        "item": "palladium:vibranium_circuit"
+      },
+      "M": {
+        "item": "palladium:redstone_flux_crystal"
+      },
+      "S": {
+        "item": "palladium:vibranium_ingot"
+      }
+      
+    },
+    "result": {
+      "item": "kc64:profesor_omni_helmet",
+      "count": 1
+    },
+    "show_notification": true
+  }

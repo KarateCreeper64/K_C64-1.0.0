@@ -13,5 +13,16 @@
      "item.kc64.glich_leggings":"Glich Leggings",
       "item.kc64.glich_boots":"Glich Boots",
         "item.kc64.glich_helmet":"Glich",
-      "hero.kc64.glich":"Glich"
+      "hero.kc64.glich":"Glich",
+      "item.kc64.spidey_helmet":"Spidey Mask",
+      "item.kc64.spidey_chestplate":"Spidey Chestpalat",
+      "item.kc64.spidey_leggings":"Spidey Pants",
+      "item.kc64.spidey_boots":"Spidey Boots",
+      "hero.kc64.spidey":"Spidey",
+      "item.kc64.lab_coat_chestplate":"Lab Coat",
+      "item.kc64.profesor_omni_helmet":"Profesor Omni Helmet",
+      "item.kc64.profesor_omni_chestplate":"Profesor Omni Chestpalat",
+      "item.kc64.profesor_omni_leggings":"Profesor Omni Leggings",
+      "item.kc64.profesor_omni_boots":"Profesor Omni boots",
+      "hero.kc64.profesor_omni":"Profesor Omni"
 }

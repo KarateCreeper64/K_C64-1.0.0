@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "   ",
+      "BMB",
+      "B B"
+    ],
+    "key": {
+      "B": {
+        "item": "arrzenhanced:red_fabric"
+      },
+      "M": {
+        "item": "minecraft:cobweb"
+      }
+      
+    },
+    "result": {
+      "item": "kc64:spidey_boots",
+      "count": 1
+    },
+    "show_notification": true
+  }

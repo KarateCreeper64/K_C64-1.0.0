@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "   ",
+      " BM",
+      "   "
+    ],
+    "key": {
+          "B": {
+        "item": "arrzenhanced:gamma_ceystal"
+      },
+      "M": {
+        "item": "minecraft:spider_eye"
+      }
+    },
+    "result": {
+      "item": "kc64:radeoactive_spider_eye",
+      "count": 1
+    },
+    "show_notification": true
+  }

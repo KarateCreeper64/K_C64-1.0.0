@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "BMB",
+      "BYB",
+      "   "
+    ],
+    "key": {
+      "B": {
+        "item": "arrzenhanced:red_fabric"
+      },
+      "Y": {
+        "item": "palladium:quartz_circuit"
+      },
+      "M": {
+        "item": "minecraft:cobweb"
+      }
+      
+    },
+    "result": {
+      "item": "kc64:spidey_helmet",
+      "count": 1
+    },
+    "show_notification": true
+  }

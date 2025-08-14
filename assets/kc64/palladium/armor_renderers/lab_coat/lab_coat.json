@@ -1,0 +1,10 @@
+{
+    "textures": {
+      "normal": "kc64:textures/models/armor/lab_coat/lab_coat.png",
+      "slim": "kc64:textures/models/armor/lab_coat/lab_coat.png"
+    },
+    "model_layers": {
+      "normal": "palladium:humanoid#suit",
+      "slim": "palladium:humanoid#suit_slim"
+    }
+}

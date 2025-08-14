@@ -1,0 +1,9 @@
+{
+    "armor_material": "kc64:basic_armor",
+    "chest": {
+        "item_name": "lab_coat_chestplate",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:labe_coat/chest"
+    }
+}

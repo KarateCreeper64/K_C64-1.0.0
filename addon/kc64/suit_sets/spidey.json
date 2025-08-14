@@ -1,0 +1,27 @@
+{
+    "armor_material": "kc64:basic_plus_armor",
+    "chest": {
+        "item_name": "spidey_chestplate",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:spidey/chest"
+    },
+    "legs": {
+        "item_name": "spidey_leggings",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:spidey/legs"
+    },
+    "feet": {
+        "item_name": "spidey_boots",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:spidey/boots"
+    },
+    "head": {
+        "item_name": "spidey_helmet",
+        "max_stack_size": 1,
+        "is_fire_restant": false,
+        "armor_renderer": "kc64:spidey/helmet"
+    }
+}
