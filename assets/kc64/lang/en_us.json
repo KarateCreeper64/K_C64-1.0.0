@@ -24,5 +24,10 @@
       "item.kc64.profesor_omni_chestplate":"Profesor Omni Chestpalat",
       "item.kc64.profesor_omni_leggings":"Profesor Omni Leggings",
       "item.kc64.profesor_omni_boots":"Profesor Omni boots",
-      "hero.kc64.profesor_omni":"Profesor Omni"
+      "hero.kc64.profesor_omni":"Profesor Omni",
+      "item.kc64.omni_speed_helmet":"Omni Speed Helmet",
+      "item.kc64.omni_speed_chestplate":"Omni Speed Chestpalat",
+      "item.kc64.omni_speed_leggings":"Omni Speed Leggings",
+      "item.kc64.omni_speed_boots":"Omni Speed boots",
+      "hero.kc64.omni_speed":"Omni Speed"
 }

@@ -1,0 +1,27 @@
+{
+    "armor_material": "kc64:reinforced_armor",
+    "chest": {
+        "item_name": "omni_speed_chestplate",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:omni_speed/chest"
+    },
+    "legs": {
+        "item_name": "omni_speed_leggings",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:omni_speed/legs"
+    },
+    "feet": {
+        "item_name": "omni_speed_boots",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:omni_speed/boots"
+    },
+    "head": {
+        "item_name": "omni_speed_helmet",
+        "max_stack_size": 1,
+        "is_fire_restant": false,
+        "armor_renderer": "kc64:omni_speed/helmet"
+    }
+}

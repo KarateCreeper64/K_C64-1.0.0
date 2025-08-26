@@ -20,6 +20,10 @@
         "kc64:profesor_omni_helmet",
         "kc64:profesor_omni_chestplate",
         "kc64:profesor_omni_leggings",
-        "kc64:profesor_omni_boots"
+        "kc64:profesor_omni_boots",
+        "kc64:omni_speed_helmet",
+        "kc64:omni_speed_chestplate",
+        "kc64:omni_speed_leggings",
+        "kc64:omni_speed_boots"
     ]
 }

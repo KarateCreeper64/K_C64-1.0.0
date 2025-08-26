@@ -1,0 +1,10 @@
+{
+    "textures": {
+      "normal": "kc64:textures/models/armor/omni_speed/chest.png",
+      "slim": "kc64:textures/models/armor/omni_speed/chest.png"
+    },
+    "model_layers": {
+      "normal": "palladium:humanoid#suit",
+      "slim": "palladium:humanoid#suit_slim"
+    }
+}
