@@ -1,0 +1,27 @@
+{
+    "armor_material": "kc64:basic_plus_armor",
+    "chest": {
+        "item_name": "ds_chestplate",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:ds/chest"
+    },
+    "legs": {
+        "item_name": "ds_leggings",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:ds/legs"
+    },
+    "feet": {
+        "item_name": "ds_boots",
+        "max_stack_size": 1,
+        "is_fire_resistant": false,
+        "armor_renderer": "kc64:ds/boots"
+    },
+    "head": {
+        "item_name": "ds_helmet",
+        "max_stack_size": 1,
+        "is_fire_restant": false,
+        "armor_renderer": "kc64:ds/helmet"
+    }
+}
