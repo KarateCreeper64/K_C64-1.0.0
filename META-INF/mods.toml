@@ -1,0 +1,21 @@
+modLoader = 'lowcodefml'
+showAsResourcePack = false
+loaderVersion="[47,)"
+license="All rights reserved"
+
+[[mods]]
+modId="kc64"
+displayName="Karate_Creeper64 Custom Superhero's"
+version="1.0.0"
+logoFile = "logo.png"
+logoBlur = false
+description='''
+Adds Custom superhero's powers and suits.
+'''
+
+[[dependencies.kc64]]
+modId = "palladium"
+mandatory = true
+versionRange = "[4,)"
+ordering = "NONE"
+side = "BOTH"
